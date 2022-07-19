@@ -1,0 +1,19 @@
+설정->기본앱->웹브라우저: chrome으로 설정
+==> VScode live server 경로
+
+coding style>
+언어마다 style guide에 따라 coding하는 습관이 필요
+
+1. camelCase
+2. kebab-case ---> HTML
+3. snake_case ---> Python
+
+0719화 오늘 배운 내용 잘 기억해두기! ppt 111pg~
+0725월 월말평가
+> CSS까지(JavaScript 전까지)
+> margin, padding차이 + 값을 크게, 작게할 때 어떻게 변하는지
+> inline, block, inline-block차이, 위 동작과의 관계
+> flex : 정렬 기능
+
+꿀팁
+> 검색할 때 ex) python -naver : naver블로그 검색 안됨

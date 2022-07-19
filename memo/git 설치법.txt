@@ -1,0 +1,8 @@
+초콜렛티 깔고
+choco install git
+한번끄고
+
+폴더가서 vscode로 열기
+terminal 열어서
+
+git명령어 수행

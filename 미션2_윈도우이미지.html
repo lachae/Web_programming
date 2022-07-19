@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        display: flex;
+        width: 900px;
+        height: 800px;
+        background-color: aquamarine;
+        position: relative;
+      }
+      .pic {
+        position: absolute;
+        width: 370px;
+        height: 290px;
+        border-radius: 20%;
+        background-size: cover;
+      }
+      .a {
+        left: 50px;
+        top: 50px;
+      }
+      .b {
+        right: 50px;
+        top: 50px;
+      }
+      .c {
+        left: 50px;
+        bottom: 50px;
+      }
+      .d {
+        right: 50px;
+        bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div><img class="pic a" src="./images/one.jpg" alt="one" /></div>
+      <div><img class="pic b" src="./images/two.jpg" alt="two" /></div>
+      <div><img class="pic c" src="./images/three.jpg" alt="three" /></div>
+      <div><img class="pic d" src="./images/four.jpg" alt="four" /></div>
+    </main>
+  </body>
+</html>

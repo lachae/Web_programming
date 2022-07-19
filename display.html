@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .link-test,
+      .link-test2,
+      .h1-test {
+        border: 1px solid black;
+      }
+      .link-test2 {
+        /* display : inline->block 가능 
+            block->inline 가능
+        */
+        display: block;
+        width: 60px;
+        height: 60px;
+      }
+      .btn {
+        border: 2px solid pink;
+        width: 100px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- inline :줄바꿈 발생x
+        특징 : 크기 조정x(정해진 영역이 있고 변경할 수 없음)
+        ex) a-tag
+      -->
+    <a class="link-test" href="">fffffffffffffffffff</a>
+    <a class="link-test" href="">ffffff</a>
+
+    <a class="link-test2" href="">ffff</a>
+    <a class="link-test2" href="">ffffff</a>
+    <!-- block :한 줄 전체를 차지
+        특징 : 크기 변경o
+        ex) h-tag
+     -->
+    <h1 class="h1-test">랄랄랄</h1>
+    <h1 class="h1-test">랄랄랄</h1>
+    <!-- inline block:
+        특징 : text 길이를 가지지만 크기 조정 가능
+        inline, block의 성질 두 가지를 가짐 -->
+    <button class="btn">Click me!</button>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        /* flex정렬 기본값 : flex-direction row
+                즉, x축 정렬이 기본값 */
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        height: 300px;
+
+        /* align-items : x축 정렬 */
+        align-items: center;
+        /* justify-content : y축 정렬 : center command*/
+        /* justify-content: space-between; */
+        /* flex-wrap: wrap; */
+      }
+      .box {
+        width: 80px;
+        height: 80px;
+        border: 1px solid blue;
+        background-color: red;
+      }
+      .a{
+        flex: 1;
+        background-color: red;
+      }
+      .b{
+        flex: 4;
+        background-color: green;
+      }
+      .c{
+        flex: 1;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box a">1</div>
+      <div class="box b">2</div>
+      <div class="box c">3</div>
+      <!-- <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+      <div class="box">11</div>
+      <div class="box">12</div> -->
+    </div>
+  </body>
+</html>

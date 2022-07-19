@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .grand-parent, .parent, .child{
+      border: 1px solid black;
+    }
+    .grand-parent{
+      position: relative;
+    }
+    .child{
+      /* relative: 부모를 기준으로 판단
+        부모가 할당해준 자식의 공간에서 이동가능
+        default값 static
+        static인 주소를 기준으로 움직인다 
+         */
+      position: relative;
+      /* left에서 공백 ~px 만큼 준다는 의미
+        그냥 쓸때는 동작하지 않지만 relative선언하면 움직임 */
+      left: 100px;
+    }
+    .child{
+      position: absolute;
+      top: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="grand-parent">
+    할배
+    <div class="parent">
+      아빠
+      <div class="child">나</div>
+    </div>
+  </div>
+</body>
+</html>
